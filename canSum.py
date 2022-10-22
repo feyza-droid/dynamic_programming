@@ -1,6 +1,6 @@
 """
-Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges
-https://www.youtube.com/watch?v=oBt53YbR9Kk&t=4216s&ab_channel=freeCodeCamp.org
+Write a function 'canSum(targetSum, numbers)' that takes in a targetSum and an array of numbers as arguments.
+The function should return a boolean indicating whether or not it is possible to generate the targetSum using numbers from the array.
 """
 
 def canSum(targetSum, numbers, memo): # you can use the same numbers as much as you want to obtain the target sum
@@ -24,5 +24,5 @@ print(canSum(8, [2, 3, 5], memo= {})) # True
 print(canSum(300, [7, 14], memo= {})) # False
 
 # m: target sum    n: length of numbers array
-# time complexity O(m * n) # NOTE: I didn't understand the time complexity of memoization
-# space complexity O(m) # NOTE: I didn't understand the space complexity of memoization
+# time complexity O(m * n)
+# space complexity O(m)

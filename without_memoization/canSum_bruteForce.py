@@ -1,3 +1,8 @@
+"""
+Write a function 'canSum(targetSum, numbers)' that takes in a targetSum and an array of numbers as arguments.
+The function should return a boolean indicating whether or not it is possible to generate the targetSum using numbers from the array.
+"""
+
 def canSum(targetSum, numbers): # you can use the same numbers as much as you want to obtain the target sum
     if targetSum == 0: return True
     if targetSum < 0: return False
@@ -16,4 +21,4 @@ print(canSum(8, [2, 3, 5])) # True
 
 # m: target sum    n: length of numbers array
 # time complexity O(n^m) 
-# space complexity O(n) # NOTE: I didn't understand the space complexity of brute force solution
+# space complexity O(n)

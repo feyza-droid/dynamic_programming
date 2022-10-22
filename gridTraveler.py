@@ -1,3 +1,9 @@
+"""
+Say that you are a traveler on a 2D grid. 
+You begin in the top-left corner and your goal is to travel to the bottom-right corner.
+You may only move down or right.
+"""
+
 def gridTraveler(m, n, memo = {}):
     key1 = str(m) + "," + str(n)
     # key2 = str(n) + "," + str(m) # since gridTraveler(a,b) equals to gridTraveler(b,a) for this problem
