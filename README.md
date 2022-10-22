@@ -13,3 +13,14 @@ My Python implementation of the solutions to the common Dynamic Programming prob
     - add a memo object
     - add a base case to return memo values
     - store return values into the memo
+
+## DP Problems List
+<ul>
+    <li>canSum ➡️ Can you do it? yes/no (Decision Problem) </li>
+    <li>howSum ➡️ How will you do it? (Combinatoric Problem) </li>
+    <li>bestSum ➡️ What is the best way to do it? (Optimization Problem) </li>
+    <li>canConstruct</li>
+    <li>countConstruct</li>
+    <li>allConstruct</li>
+    <li>tabulation</li>
+</ul>
