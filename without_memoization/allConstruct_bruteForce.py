@@ -7,25 +7,23 @@ You may reuse elements of 'wordBank' as many times as needed.
 
 
 
-def allConstruct(target, wordBank, memo):
-    if target in memo: return memo[target]
+def allConstruct(target, wordBank):
     if target == '': return [[]]
 
     result = []
     for word in wordBank:
         if target.startswith(word):
             suffix = target[len(word):]
-            suffixWays = allConstruct(suffix, wordBank, memo) # returns [[]] from desired leaves
+            suffixWays = allConstruct(suffix, wordBank) # returns [[]] from desired leaves
             targetWays = list(map(lambda suffixWay: [word] + suffixWay, suffixWays))
             result += targetWays
 
-    memo[target] = result
-    return memo[target]
+    return result
 
-print(allConstruct(target="purple", wordBank = ["purp", "p", "ur", "le", "purpl"], memo = {}))
-print(allConstruct(target="abcdef", wordBank = ["ab", "abc", "cd", "def", "abcd", "ef", "c"], memo = {}))
-print(allConstruct(target="skateboard", wordBank = ["bo", "rd", "ate", "t", "ska", "sk", "boar"], memo = {}))
-print(allConstruct(target="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaz", wordBank = ["a", "aa", "aaa", "aaaa", "aaaaa"], memo = {}))
+print(allConstruct(target="purple", wordBank = ["purp", "p", "ur", "le", "purpl"]))
+print(allConstruct(target="abcdef", wordBank = ["ab", "abc", "cd", "def", "abcd", "ef", "c"]))
+print(allConstruct(target="skateboard", wordBank = ["bo", "rd", "ate", "t", "ska", "sk", "boar"]))
+# print(allConstruct(target="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaz", wordBank = ["a", "aa", "aaa", "aaaa", "aaaaa"])) # time exceeding
 
 # m: target    n: length of word bank array
 # time complexity O(n^m) 

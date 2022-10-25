@@ -22,5 +22,11 @@ My Python implementation of the solutions to the common Dynamic Programming prob
     <li>canConstruct</li>
     <li>countConstruct</li>
     <li>allConstruct</li>
+</ul>
+
+## Tabulation
+<ul>
     <li>tabulation</li>
 </ul>
+
+TODO: Reexamine the space and time complexity of each solution.
