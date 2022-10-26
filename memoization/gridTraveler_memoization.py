@@ -15,5 +15,5 @@ def gridTraveler(m, n, memo = {}):
 
     return memo[key1]
 
-w = gridTraveler(18, 18)
+w = gridTraveler(18, 18) # 2333606220
 print(f"w {w}")
