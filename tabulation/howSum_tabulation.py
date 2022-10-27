@@ -29,3 +29,4 @@ print(howSum(300, [7, 14])) # None
 # m = targetSum
 # n = numbers.length
 # time complexity O(m^2*n) # copying a list takes O(m) time
+# space complexity O(m^2)
