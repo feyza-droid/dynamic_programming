@@ -28,5 +28,4 @@ print(allConstruct(target="skateboard", wordBank = ["bo", "rd", "ate", "t", "ska
 print(allConstruct(target="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaz", wordBank = ["a", "aa", "aaa", "aaaa", "aaaaa"], memo = {}))
 
 # m: target    n: length of word bank array
-# time complexity O(n^m) 
-# space complexity O(m)
+# time complexity O(n^m)

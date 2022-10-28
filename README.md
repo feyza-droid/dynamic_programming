@@ -1,6 +1,6 @@
 # Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges
 
-My Python implementation of the solutions to the common Dynamic Programming problems in <a href="https://www.youtube.com/watch?v=oBt53YbR9Kk&t=1829s">freeCodeCamp Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges</a>
+My Python implementation of the solutions to the common Dynamic Programming problems in <a href="https://www.youtube.com/watch?v=oBt53YbR9Kk">freeCodeCamp Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges</a>
 
 ## DP Problems List
 <ul>
