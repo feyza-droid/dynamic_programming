@@ -7,9 +7,9 @@ My Python implementation of the solutions to the common Dynamic Programming prob
     <li>canSum ➡️ Can you do it? yes/no (Decision Problem) </li>
     <li>howSum ➡️ How will you do it? (Combinatoric Problem) </li>
     <li>bestSum ➡️ What is the best way to do it? (Optimization Problem) </li>
-    <li>canConstruct</li>
-    <li>countConstruct</li>
-    <li>allConstruct</li>
+    <li>canConstruct ➡️ Can you do it? (with strings) </li>
+    <li>countConstruct ➡️ How many different ways to do it? (with strings)</li>
+    <li>allConstruct ➡️ What are the ways to do it? (with strings) </li>
 </ul>
 
 ## How to solve with recursion & memoization?
