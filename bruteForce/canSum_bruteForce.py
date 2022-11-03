@@ -21,4 +21,4 @@ print(canSum(8, [2, 3, 5])) # True
 
 # m: target sum    n: length of numbers array
 # time complexity O(n^m) 
-# space complexity O(n)
+# space complexity O(m)
